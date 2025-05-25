@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain_community
+langchain_huggingface
+langchain_ollama
+faiss-cpu
+ollama
+sentence-transformers
+transformers
+torch
+accelerate
+bitsandbytes

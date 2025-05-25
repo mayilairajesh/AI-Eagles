@@ -1,0 +1,2 @@
+Artificial Intelligence (AI) is a branch of computer science that aims to create software or machines that exhibit human-like intelligence.
+Machine learning is a subfield of AI that focuses on building systems that learn from data.
