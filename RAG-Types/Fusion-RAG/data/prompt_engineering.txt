@@ -1,0 +1,253 @@
+C:\Users\scend\AppData\Local\Programs\Python\Python311
+
+
+
+A.Basic Prompt Templates
+1) General Enquiry:
+eg
+Explain Agents in simple terms
+2) Summaraization :
+eg
+Summarize the following text in 5 bullet points: [text copied from the above prompt response]
+3)Paraphrasing:
+eg
+Rewrite the sentence in your own words: [text copied from the above prompt response]
+4)Definition Request:
+eg
+What is the meaning of API?
+5)Comparision:
+eg Compare [developing country] and [developed country] based on [ income per capita]
+-----------------------------------------------------------------------------------------
+B.Persona-Based Prompt Templates
+6)Role+Explanation
+eg
+You are a mathematics teacher. Explain Pigeon hole principle to 10 year old student.
+7)Style Mimicry
+eg:
+Write like Elon Musk: Why Starlink will change the world of communication.
+8)Professional Writing
+eg:
+You are a [AI developer]. Write a [design development] for an [agent]
+------------------------------------------------------------------------------------------
+C.Few-Shot Prompt Templates
+9)Classification Template
+eg:
+Classify sentiment:
+[the food is bad] → [negative]
+[it's cool breeze] → [positive]
+[sultry summer] →
+
+10)Translation Template
+eg:
+Translate the following sentences into [tamil language]:
+[what are you doing] → [ennada panra]
+[where are you?] → [ippa enga iruka?]
+[when are you going home?] →
+
+11)Question Answering Template
+eg:
+Answer these questions:
+Who wrote Mahabarat? → veda vyasar
+What is the capital of India? → delhi
+Who discovered America? →
+--------------------------------------------------------------------------
+D.Chain-of-Thought (CoT) Templates
+12)Step-by-Step Reasoning
+eg:
+Let’s think step by step. In any group of people,
+there must be at least two people who have shaken hands with the same number of other people within the group.
+
+13)Math Problem Solving
+eg:
+Solve this math problem by showing your work:
+[i tried the above pbm 12 the answer was bit elaborate]
+
+14)Logical Puzzle
+eg:
+Solve the following logic puzzle. Show your reasoning process:
+[Five points are placed anywhere inside or on the boundary of a square with side length 1.
+Show that at least two of these points must be at a distance of at most  square(2)/2  from each other.]
+----------------------------------------------------------------------------------------------------------
+E)Instruction Tuning / Format Control
+15)Output Formatting
+eg:
+Summarize the article below in exactly [10] bullet points.[generated the summary of Roman empire and copied]
+
+16)Table Generation
+eg:
+Create a table comparing [C], [C++], and [Python] based on [performance].
+
+17)Email Writing
+eg:
+Write a professional email to HR regarding Interview Outcome. Use a formal tone.
+------------------------------------------------------------------------------------------------------
+F. Contextual Prompts
+18)Tailored Explanation
+eg:
+Explain personal finance to a 10-year-old student who knows basic arithmetic.
+
+19)Industry-Specific Context
+eg:
+As a financial expert, explain how modern technology impacts money markets.
+---------------------------------------------------------------------------------------------
+G. Creative Writing Prompts
+20)Story Writing
+eg:
+Write a short story about [Jeenu]. His [aim is to scale everest] but faces [physical limitation].
+
+21)Poem Writing
+eg:
+Write a poem in [tamil] about [tamil].
+
+22)Dialogue Writing
+eg)
+Write a realistic dialogue between [Manoj] and [Thiru] discussing [about AI agent].
+-------------------------------------------------------------------------------------------------
+H. Code & Technical Prompts
+23)Code Generation
+eg)
+Write a [python language] function that [calculates factorial].
+
+24)Debugging Help
+eg)
+Here is some code. Find and fix any errors:[jumbled the code snippet of the previous pbm]
+
+25)API Documentation
+eg)
+Explain how to use the [API name] with an example request and response.
+Explain how to use the [Open Weather map ApI] with an example request and response.
+---------------------------------------------------------------------------------------------------
+I. Marketing & Business Prompts
+26)Ad Copywriting
+eg:
+Write a compelling ad for [milk products] targeting [the kids below 13].
+27)Product Description
+eg:
+Write a persuasive product description for [milo the milk drink].
+28)Social Media Post
+eg:
+Create a social media post promoting tamil cultural event in a friendly tone.
+------------------------------------------------------------------------------------------------
+J. Customer Support & Service Prompts
+29) Response to Complaint
+eg:
+Respond professionally to this customer complaint:[the product, i received was damaged]
+30)FAQ Generator
+eg:
+Generate 5 common FAQs and answers for [refund policy]
+---------------------------------------------------------------------------------------------
+31)Lesson Plan Creation
+eg)
+Create a 30 day lesson plan for teaching [Discrete Maths] to [a graduate student].
+32)Quiz Generation
+eg)
+Generate a 5-question quiz about [python function].
+33)Homework Help
+eg)
+Explain how to solve this [simple math] problem:
+[I am thinking of a number. If you double it and then subtract 6, you get 14. What’s the number?]
+-------------------------------------------------------------------------------------------------------
+L. Advanced Framework-Based Templates
+34)ReAct Framework
+Thought:     I need to determine the current weather in New York City to answer the user's question.
+
+Action:      [search("current weather in New York City")]
+
+Observation: The search results show that the weather in New York City is currently 68°F,
+             partly cloudy, with winds at 10 mph.
+Answer:      The current weather in New York City is 68°F and partly cloudy, with winds around 10 mph.
+
+35)Tree of Thoughts (ToT)
+eg:
+Generate 3 possible solutions to [greenhouse effect]. Evaluate each and choose the best one.
+
+36)Self-Consistency Prompting
+eg:
+Solve the following question in 3 different ways and pick the most consistent answer:[greenhouse effect]
+------------------------------------------------------------------------------------------------------------
+ M. Prompt Optimization & Evaluation
+37)Prompt Refinement
+eg:
+Improve this prompt: [write a summary about India]
+Make it clearer, more specific, and structured.
+
+38)Prompt Grading Rubric
+eg:
+Rate this output [prompted about demonetisation and copied the response here]  based on the following criteria (1–5):
+Relevance: ___
+Accuracy: ___
+Clarity: ___
+Fluency: ___
+Creativity: ___
+
+Final Score: ___
+
+39)Prompt Iteration Challenge
+eg:
+Take this weak prompt: [write a summary about India]
+Now rewrite it 3 times to improve clarity and effectiveness.finally gives the proper prompt among all.
+-----------------------------------------------------------------------------------------------------------
+N. Real-World Application Prompts
+40)Job Posting Creation
+eg:
+Write a job posting for [product delivery manager] at [SAP]. Include responsibilities,
+requirements, and benefits.
+
+41)Resume Summary Builder
+eg:
+Create a professional summary for a resume based on the following details:
+[zero Experience,No to low skills, dull achievements]
+Response frm Gpt:
+Creating a professional summary with no experience, low skills,
+and dull achievements requires a strategic approach.
+The goal is to highlight potential, enthusiasm,
+and transferable skills rather than focusing on past accomplishments.
+suggested few options with slightly different angles.
+
+
+42)Business Proposal
+eg:
+Write a proposal for [investment idea] to [Angel investors]. Include objectives, methodology, and benefits
+
+-----------------------------------------------------------------------------------------------------
+O. Miscellaneous Useful Templates
+43)Opinion Writing
+eg:
+Write an opinion piece on [war related economy]. Use persuasive arguments and examples.
+
+44)Debate Preparation
+eg:
+Prepare arguments for both sides of the debate: [technology uplifted people]
+
+45)Travel Planning
+eg:
+Plan a 5-day trip to [Arunachal pradesh] for [solo bike traveler]. Include activities, budget, and tips.
+
+46)Book/Movie Review
+eg:
+Write a review of [ponniyin selvan novel]. Include plot summary, strengths, weaknesses, and recommendation.
+
+47)Personal Development
+eg:
+Give me actionable advice on how to [ace python in 30 days],including daily habits and mindset shifts
+-------------------------------------------------------------------------------------------------------
+P. Prompt Chaining Examples
+48)Multi-step Research Task
+eg:
+Step 1:
+Find out the top 5 causes of war mongering.
+Step 2: 
+Based on those causes, suggest 5 practical solutions countries can adopt.
+
+49)Idea to Execution
+eg:
+Step 1:
+Generate 5 business ideas for user-friendly fintech products.
+Step 2: 
+Pick one idea and create a marketing strategy for it.
+-------------------------------------------------------------------------------------------------------
+Q. Prompt Template Generator
+50)Universal Prompt Builder
+eg:
+generate prompt for building a weatherman agent in below format
+[Role+ Task +Context +Few short + Report] . --->give me in mark down method by using #
