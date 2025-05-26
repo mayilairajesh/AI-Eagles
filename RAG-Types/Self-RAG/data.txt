@@ -1,0 +1,3 @@
+DeepSeek is a series of large language models developed by DeepSeek.
+The DeepSeek 1.5B model has around 1.5 billion parameters and is efficient for lightweight tasks.
+RAG combines retrieval and generation to improve factual accuracy in responses.
